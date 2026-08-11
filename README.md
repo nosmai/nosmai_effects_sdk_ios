@@ -4,26 +4,34 @@
 [![Native SDK 3.0.0](https://img.shields.io/badge/native%20SDK-3.0.0-blue)](../../releases/tag/v3.0.0)
 [![Architecture arm64](https://img.shields.io/badge/architecture-arm64-lightgrey)](https://developer.apple.com/documentation/xcode/build-settings-reference)
 
-Nosmai Effects SDK brings real-time AR effects, beauty filters, virtual makeup,
-face reshaping, background effects, recording, and processed frame output to
-iOS applications.
+Nosmai Effects SDK for iOS is a real-time iOS camera effects SDK for AR face
+filters, beauty filters, virtual makeup, face reshaping, background replacement,
+photo capture, filtered video recording, and live streaming integrations.
 
-## Use cases
+It is designed for native iPhone and iPad camera, social media, video,
+live streaming, video chat, virtual makeup, and branded AR applications.
+
+## Main features
+
+| Capability | iOS SDK features |
+| --- | --- |
+| Real-time camera filters | GPU-accelerated preview, LUT filters, color grading, brightness, contrast, hue, saturation, RGB, and white balance |
+| Beauty filters | Skin smoothing, skin whitening, sharpening, teeth whitening, and adjustable intensity |
+| Virtual makeup | Lipstick, blusher, eyeshadow, eyelashes, eyebrows, and eye color |
+| Face reshape | Face slimming plus adjustable eyes, nose, chin, jaw, lips, forehead, and brows |
+| AR face effects | Face-tracked 2D and 3D masks, stickers, particles, animations, and protected `.nosmai` packages |
+| Background effects | Background segmentation, blur, solid color, image, video, and authored background packages |
+| Local and cloud effects | Bundled packages plus catalog browsing, downloading, caching, applying, and removal |
+| Capture and recording | Processed photo capture, filtered video recording, and camera lifecycle controls |
+| Live streaming | Processed pixel-buffer output for authorized live-streaming and custom-render integrations |
+
+## Built for
 
 - Camera, photo, and video applications
 - Social, live-streaming, and video-chat experiences
 - Virtual makeup and beauty experiences
 - Branded AR effects and interactive campaigns
 - Background blur, replacement, and segmentation
-
-## Key features
-
-- GPU-accelerated real-time effects and color filters
-- Face-tracked 2D and 3D masks, stickers, particles, and animations
-- Adjustable beauty, makeup, and face-reshape controls
-- Background blur, solid color, image, video, and authored packages
-- Local and cloud-delivered `.nosmai` effect packages
-- Filtered video recording and processed output for streaming integrations
 
 ## On-device processing
 
