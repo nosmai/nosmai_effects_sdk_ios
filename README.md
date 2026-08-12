@@ -1,12 +1,13 @@
 # Nosmai Effects SDK for iOS
 
 [![iOS 15+](https://img.shields.io/badge/iOS-15%2B-blue)](https://developer.apple.com/ios/)
-[![Native SDK 3.0.0](https://img.shields.io/badge/native%20SDK-3.0.0-blue)](../../releases/tag/v3.0.0)
+[![Native SDK 3.0.1](https://img.shields.io/badge/native%20SDK-3.0.1-blue)](../../releases/tag/v3.0.1)
 [![Architecture arm64](https://img.shields.io/badge/architecture-arm64-lightgrey)](https://developer.apple.com/documentation/xcode/build-settings-reference)
 
 Nosmai Effects SDK for iOS is a real-time iOS camera effects SDK for AR face
 filters, beauty filters, virtual makeup, face reshaping, background replacement,
-photo capture, filtered video recording, and live streaming integrations.
+interactive camera games, photo capture, filtered video recording, and live
+streaming integrations.
 
 It is designed for native iPhone and iPad camera, social media, video,
 live streaming, video chat, virtual makeup, and branded AR applications.
@@ -22,6 +23,7 @@ live streaming, video chat, virtual makeup, and branded AR applications.
 | AR face effects | Face-tracked 2D and 3D masks, stickers, particles, animations, and protected `.nosmai` packages |
 | Background effects | Background segmentation, blur, solid color, image, video, and authored background packages |
 | Local and cloud effects | Bundled packages plus catalog browsing, downloading, caching, applying, and removal |
+| Interactive camera games | Exclusive `.nosmai` games with normalized tap input, lifecycle handling, and game events |
 | Capture and recording | Processed photo capture, filtered video recording, and camera lifecycle controls |
 | Live streaming | Processed pixel-buffer output for authorized live-streaming and custom-render integrations |
 
@@ -31,6 +33,7 @@ live streaming, video chat, virtual makeup, and branded AR applications.
 - Social, live-streaming, and video-chat experiences
 - Virtual makeup and beauty experiences
 - Branded AR effects and interactive campaigns
+- Tap-based camera games and gamified campaigns
 - Background blur, replacement, and segmentation
 
 ## On-device processing
@@ -43,7 +46,8 @@ packages.
 
 | Item | Requirement |
 | --- | --- |
-| SDK version | `3.0.0` |
+| Native SDK version | `3.0.1` |
+| CocoaPod version | `3.0.2` |
 | Minimum iOS version | iOS 15.0 |
 | Supported architecture | Physical arm64 device |
 | Binary | Dynamic `nosmai.framework` |
@@ -54,11 +58,11 @@ commercial license and license key are required.
 ## CocoaPods
 
 The CocoaPod remains available under its established package name. Version
-`3.0.1` is a metadata-only update that resolves the verified native SDK
-`v3.0.0` framework from this canonical repository.
+`3.0.2` resolves the verified native SDK `v3.0.1` framework from this canonical
+repository.
 
 ```ruby
-pod 'NosmaiCameraSDK', '3.0.1'
+pod 'NosmaiCameraSDK', '3.0.2'
 ```
 
 ## Download
