@@ -47,7 +47,7 @@ packages.
 | Item | Requirement |
 | --- | --- |
 | Native SDK version | `3.0.3` |
-| CocoaPod version | `3.0.2` |
+| CocoaPod version | `3.0.3` |
 | Minimum iOS version | iOS 15.0 |
 | Supported architecture | Physical arm64 device |
 | Binary | Dynamic `nosmai.framework` |
@@ -57,13 +57,11 @@ commercial license and license key are required.
 
 ## CocoaPods
 
-The CocoaPod remains available under its established package name. The current
-published CocoaPod version `3.0.2` continues to resolve native SDK `v3.0.1`.
-Native SDK `v3.0.3` is currently available through the manual GitHub release
-download below.
+The CocoaPod remains available under its established package name. Version
+`3.0.3` resolves the verified native SDK `v3.0.3` framework release.
 
 ```ruby
-pod 'NosmaiCameraSDK', '3.0.2'
+pod 'NosmaiCameraSDK', '3.0.3'
 ```
 
 ## Download
