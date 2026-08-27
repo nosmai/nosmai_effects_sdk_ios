@@ -1,7 +1,7 @@
 # Nosmai Effects SDK for iOS
 
 [![iOS 15+](https://img.shields.io/badge/iOS-15%2B-blue)](https://developer.apple.com/ios/)
-[![Native SDK 3.0.4](https://img.shields.io/badge/native%20SDK-3.0.4-blue)](../../releases/tag/v3.0.4)
+[![Native SDK 3.0.5](https://img.shields.io/badge/native%20SDK-3.0.5-blue)](../../releases/tag/v3.0.5)
 [![Architecture arm64](https://img.shields.io/badge/architecture-arm64-lightgrey)](https://developer.apple.com/documentation/xcode/build-settings-reference)
 
 Nosmai Effects SDK for iOS is a real-time iOS camera effects SDK for AR face
@@ -46,8 +46,8 @@ packages.
 
 | Item | Requirement |
 | --- | --- |
-| Native SDK version | `3.0.4` |
-| CocoaPod version | `3.0.4` |
+| Native SDK version | `3.0.5` |
+| CocoaPod version | `3.0.5` |
 | Minimum iOS version | iOS 15.0 |
 | Supported architecture | Physical arm64 device |
 | Binary | Dynamic `nosmai.framework` |
@@ -58,11 +58,16 @@ commercial license and license key are required.
 ## CocoaPods
 
 The CocoaPod remains available under its established package name. Version
-`3.0.4` resolves the verified native SDK `v3.0.4` framework release.
+`3.0.5` resolves the verified native SDK `v3.0.5` framework release.
 
 ```ruby
-pod 'NosmaiCameraSDK', '3.0.4'
+pod 'NosmaiCameraSDK', '3.0.5'
 ```
+
+## What's new in 3.0.5
+
+- Improved beauty-effect consistency and visual quality.
+- Improved performance, stability, and reliability.
 
 ## Download
 

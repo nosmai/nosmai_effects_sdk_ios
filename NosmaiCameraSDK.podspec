@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NosmaiCameraSDK'
-  s.version          = '3.0.4'
+  s.version          = '3.0.5'
   s.summary          = 'Real-time camera effects, beauty, AR, backgrounds, and recording for iOS.'
   s.description      = <<-DESC
     Nosmai Effects SDK for iOS is a proprietary framework for real-time camera
@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   s.source           = {
-    :http => 'https://github.com/nosmai/nosmai_effects_sdk_ios/releases/download/v3.0.4/nosmai.framework.zip',
-    :sha256 => 'f63f566f2580c25360d29e667308a127360e558198f05ad437ff1dd5e7a01157'
+    :http => 'https://github.com/nosmai/nosmai_effects_sdk_ios/releases/download/v3.0.5/nosmai.framework.zip',
+    :sha256 => '2386b45e5a251ea15ad5d576cc370e11f49a19e4e0b8e643b6dc76f3fcccb418'
   }
 
   s.vendored_frameworks = 'nosmai.framework'
