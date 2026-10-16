@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.7
+
+- Improved face-tracking consistency for beauty, makeup, and combined effects.
+- Improved overall performance and runtime stability.
+- General reliability improvements.
+
 ## 3.0.6
 
 - Improved beauty filter quality and visual consistency.
