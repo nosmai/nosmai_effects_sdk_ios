@@ -1,7 +1,7 @@
 # Nosmai Effects SDK for iOS
 
 [![iOS 15+](https://img.shields.io/badge/iOS-15%2B-blue)](https://developer.apple.com/ios/)
-[![Native SDK 3.0.6](https://img.shields.io/badge/native%20SDK-3.0.6-blue)](../../releases/tag/v3.0.6)
+[![Native SDK 3.0.7-beta.3](https://img.shields.io/badge/native%20SDK-3.0.7--beta.3-orange)](../../releases/tag/v3.0.7-beta.3)
 [![Architecture arm64](https://img.shields.io/badge/architecture-arm64-lightgrey)](https://developer.apple.com/documentation/xcode/build-settings-reference)
 
 Nosmai Effects SDK for iOS is a real-time iOS camera effects SDK for AR face
@@ -46,8 +46,8 @@ packages.
 
 | Item | Requirement |
 | --- | --- |
-| Native SDK version | `3.0.6` |
-| CocoaPod version | `3.0.6` |
+| Native SDK version | `3.0.7-beta.3` |
+| CocoaPods stable version | `3.0.6` |
 | Minimum iOS version | iOS 15.0 |
 | Supported architecture | Physical arm64 device |
 | Binary | Dynamic `nosmai.framework` |
@@ -57,27 +57,30 @@ commercial license and license key are required.
 
 ## CocoaPods
 
-The CocoaPod remains available under its established package name. Version
-`3.0.6` resolves the verified native SDK `v3.0.6` framework release.
+The stable CocoaPod remains available under its established package name.
+Version `3.0.6` resolves the verified native SDK `v3.0.6` framework release.
 
 ```ruby
 pod 'NosmaiCameraSDK', '3.0.6'
 ```
 
-## What's new in 3.0.6
+The `3.0.7-beta.3` framework is a GitHub prerelease for integration testing and
+is not published to the CocoaPods trunk.
 
-- Improved beauty filter quality and visual consistency.
-- Added new built-in beauty filters.
+## What's new in 3.0.7-beta.3
+
+- Improved beauty and virtual-makeup rendering for more natural, consistent results.
+- Improved face-tracked makeup alignment during movement, pose, mirroring, and scale changes.
 - Improved overall performance and runtime stability.
 
 ## Download
 
 Download `nosmai.framework.zip` and `SHA256SUMS` from the
-[latest GitHub release](https://github.com/nosmai/nosmai_effects_sdk_ios/releases/latest).
+[3.0.7-beta.3 GitHub prerelease](https://github.com/nosmai/nosmai_effects_sdk_ios/releases/tag/v3.0.7-beta.3).
 
 | Artifact | Size | SHA-256 |
 | --- | ---: | --- |
-| `nosmai.framework.zip` | 27,174,884 bytes (25.9 MiB) | `94b543921194286a526b575f16c011e040043dc88da58560d79ba2a7455f6fe6` |
+| `nosmai.framework.zip` | 27,201,623 bytes (25.9 MiB) | `3323da2fa4c95e02aa840297b2b7604d290a4e0f63b8e1daed83498d25a8ee4d` |
 
 Verify the archive before integration:
 
