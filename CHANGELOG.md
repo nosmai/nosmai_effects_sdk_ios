@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.8-beta.1
+
+- Updated face reshaping with controls for face length and head size.
+- Expanded shaping options for the eyes, nose, lips, and other facial features.
+- Existing morphing methods continue to be available.
+
 ## 3.0.7
 
 - Improved face-tracking consistency for beauty, makeup, and combined effects.

@@ -42,6 +42,18 @@ Effects and camera frames are processed on the device for responsive previews.
 Internet access may still be required for licensing and cloud-delivered effect
 packages.
 
+## iOS beta 3.0.8-beta.1
+
+This prerelease adds Face Length and Head Size to the face reshaping API.
+
+Download [the beta framework and checksum](https://github.com/nosmai/nosmai_effects_sdk_ios/releases/tag/v3.0.8-beta.1).
+Run `shasum -a 256 -c SHA256SUMS`, unzip the archive, and set
+`nosmai.framework` to **Embed & Sign** in the iOS app target.
+
+| Artifact | Size | SHA-256 |
+| --- | ---: | --- |
+| `nosmai.framework.zip` | 23,806,159 bytes | `8c1d61dbd314b67c666223bd74467a2af4d1b5fb38fafdc3cc7180abf90bec2f` |
+
 ## Requirements
 
 | Item | Requirement |
